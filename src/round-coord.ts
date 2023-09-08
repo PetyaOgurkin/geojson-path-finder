@@ -7,5 +7,6 @@ export default function roundCoord(
   return [
     Math.round(coord[0] / tolerance) * tolerance,
     Math.round(coord[1] / tolerance) * tolerance,
+    Math.round(coord[2] / tolerance) * tolerance,
   ];
 }
